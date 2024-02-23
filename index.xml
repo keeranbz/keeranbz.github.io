@@ -22,12 +22,5 @@
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Introduction Link to heading This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>This is some static page where you can write about yourself.</description>
-    </item>
   </channel>
 </rss>
