@@ -12,9 +12,10 @@
 
 
 
+<meta name="author" content="Keeran Bezuidenhout">
 <meta name="description" content="Introduction Link to heading This is bold text, and this is emphasized text.
 Visit the Hugo website!">
-<meta name="keywords" content="">
+<meta name="keywords" content="blog,developer,personal">
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My First Post"/>
 <meta name="twitter:description" content="Introduction Link to heading This is bold text, and this is emphasized text.
@@ -49,6 +50,12 @@ Visit the Hugo website!" />
 
 
 
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
 
 
  
@@ -56,9 +63,9 @@ Visit the Hugo website!" />
 
 
 
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
 
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -79,7 +86,9 @@ Visit the Hugo website!" />
 
 
 
-<body class="preload-transitions colorscheme-light">
+
+
+<body class="preload-transitions colorscheme-auto">
   
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
@@ -94,6 +103,29 @@ Visit the Hugo website!" />
     <a class="navigation-title" href="/">
       Keeran Bezuidenhout
     </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
     
   </section>
 </nav>
@@ -168,8 +200,10 @@ Visit the Hugo website!" />
   <section class="container">
     ©
     
-    2024
+      2019 -
     
+    2024
+     Keeran Bezuidenhout 
     ·
     
     Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
